@@ -1,0 +1,167 @@
+/* This how you write a comment Toujours mettre des guillemets pour regrouper les noms de font ensemble. 
+Exemple: "Open Sherif" */
+/*Pour le padding et pour les marges: 
+top=10px right=20px bottom=30px left=40 px; Donc on écrit 10px 20px 30px 40px */
+html {
+	 box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+header, 
+section {
+	padding: 20px 30px;
+}
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+	color: #333;
+}
+h1 {
+font-family: "Nixie One", arial;
+font-weight: 300;
+font size: 36px;
+color: black;
+margin: 0; /*removes default space */
+text-transform: uppercase;	
+line-height: 1; /*tightens up the space between the headings */
+}
+
+h2 {
+color: black;	
+}
+
+/*HEADER */ 
+header h1 {
+	font-size: 36px;
+}
+header h2 {
+	font-size: 18px;
+	font-family: "Nixie One", arial;
+}
+
+nav ul {
+	font-family: "Nixie One", arial;
+	list-style-type: none; /* removes billets */ 
+	margin: 0; /*removes default margin */
+	padding: 0; /* removes default padding */
+}
+
+nav ul li {
+	display: inline-block; /* gets the list items to line up side by side */ 
+}
+
+nav a {
+	display: block; /* changes the element to block */
+	padding: 5px 15px;
+	text-transform: uppercase;
+	text-decoration: none;
+
+}
+.highlight {
+	color: pink;
+}
+
+/* ABOUT PAGE */ 
+
+.profile-img {
+	float: left;
+	margin-right: 20px;
+}
+
+blockquote {
+	clear: both;
+	text-align: center;
+	padding-top: 20px;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+section {
+	padding-top: 125px;
+}
+
+header {
+	position: fixed;
+	background: white;
+	border-bottom: 1px solid #eee;
+}
+
+header {
+	position: fixed;
+	background: white;
+	border-bottom: 1px solid #eee;
+	width: 100%;
+}
+
+nav {
+	position: absolute;
+	right: 20px;
+	top: 20px;
+}
+
+.home header {
+	position: static;
+	background: transparent;
+	border-bottom: none;
+	text-align: center;
+	padding-top: 100px;
+}
+
+.home header h1 {
+	font-size: 120px;
+}
+
+.home header h2 {
+	font-size: 40px;
+}
+ 
+.home {
+    background: url(../images/background-6.jpg) no-repeat;
+}
+
+.home {
+	background-image: url(../images/background-6.jpg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+}
+
+.home {
+	background: url (../images/background-6.jpg) no-repeat 50%;
+	background-size: cover;
+}
+
+html, body {
+	height: 100%;
+}
+
+/* CONTACT PAGE
+-----------------------------------------*/
+.contact {
+  background: url(../images/background-8.jpg) no-repeat;
+  background-size: cover;
+}
+
+.box {
+    background-color: lightblue;
+    height: 100px;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form {
+    width: 600px;
+    margin: 10px auto;
+    background: white;
+}
+
+.contact-form {
+    width: 600px;
+    margin: 10px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 4px;
+}
